@@ -3,6 +3,7 @@ import pandas as pd
 
 # ----------------- INNSTRUMENT CONFIG -----------------
 SYMBOL = ['AAPL', 'MSFT', 'GOOGL','AMD']
+initial_investment = 1
 # ------------------------------------------
 if __name__ == "__main__":
     # ----------------- Data Acquisition & Preprocessing -----------------
@@ -51,8 +52,8 @@ if __name__ == "__main__":
     anual_sharpe_test_model, Porfolio_Returns_test_model = CS.portfolio_performance_pipeline(test_df,weights_model, SYMBOL)
     print(f'Anualsied sharpe on whole data of sampled weights from model', anual_sharpe_whole_model)
     print(f'Anualsied sharpe on Test data of sampled weights from model', anual_sharpe_test_model)
-    print(f'Return on whole data of sampled weight from model', Porfolio_Returns_whole_model.sum())
-    print(f'Return on Test data of sampled weights from model', Porfolio_Returns_test_model.sum())
+    print(f'Return on whole data of sampled weight from model', initial_investment + Porfolio_Returns_whole_model.sum())
+    print(f'Return on Test data of sampled weights from model', initial_investment  + Porfolio_Returns_test_model.sum())
 
     # run the bootstrap on the optimal weights return from random forest on test data and whole data
     Bootstrap_results_test_model =  CS.bootstrap_weighted(Porfolio_Returns_test_model)
@@ -77,8 +78,8 @@ if __name__ == "__main__":
     anual_sharpe_test_scipy, Porfolio_Returns_test_scipy = CS.portfolio_performance_pipeline(test_df,weights_scipy, SYMBOL)
     print(f'Anualsied sharpe on train data of optimised weights from scipy', anual_sharpe_train_scipy)
     print(f'Anualsied sharpe on Test data of optimised weights from scipy', anual_sharpe_test_scipy)
-    print(f'Return on train data of optimised weights from scipy', Porfolio_Returns_train_scipy.sum())
-    print(f'Return on Test data of optimised weights from scipy', Porfolio_Returns_test_scipy.sum())
+    print(f'Return on train data of optimised weights from scipy', initial_investment + Porfolio_Returns_train_scipy.sum())
+    print(f'Return on Test data of optimised weights from scipy', initial_investment + Porfolio_Returns_test_scipy.sum())
 
     # run bootsrap on retruns on train returns and test returns using scipy weights
     Bootstrap_results_train_scipy =  CS.bootstrap_weighted(Porfolio_Returns_train_scipy)
