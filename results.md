@@ -36,4 +36,11 @@ _Insert a table or CSV export here._
 ## Interpretation
 - Compare Random Forest vs SLSQP performance.  
 - Comment on stability of weights and robustness across train/test.  
-- Highlight where results diverged and what that means in practice.  
+- Highlight where results diverged and what that means in practice.
+
+## 📑 Full Report
+
+- [Introduction & Background](/intro.md)  
+- [Methods](/methods.md)  
+- [Results](/results.md)  
+- [Conclusion & Next Steps](/conclusion.md)
