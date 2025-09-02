@@ -7,12 +7,11 @@ permalink: /results.html
 # Results
 
 ## Descriptive Statistics
-Provide summary statistics for each stock (train & test):  
+Graph provides a summary of bootstraped statistics for each stock:  
 - Mean daily/annualised returns  
 - Volatility  
-- Sharpe ratio  
-
-_Insert a table or CSV export here._
+- Sharpe ratio
+- ![Individual assests statistics](/assets/bootstrap individual assests.png)  
 
 ## Random Forest Results
 - Train R²: **[…]**; Cross-validation mean ± std: **[…]**  
