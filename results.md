@@ -32,7 +32,7 @@ Graph provides a summary of bootstraped statistics for each stock:
 - Test Sharpe: **[0.64]**   
 
 **SLSQP Figures:**  
-- ![Test Boostrap Distributions - SLSQP](/assets/Test%20Data%20returns:%20scipy%20Weights.png) 
+- ![Test Boostrap Distributions - SLSQP](/assets/Test_Data_returns_scipy_Weights.png)
 - ![Test Cumulative Returns – SLSQP](/assets/Cumulative_Return_optimal_weights_from_scipy_Study_on_test_Dataset.png)  
 
 ## Discussion and Interpretation of Results
