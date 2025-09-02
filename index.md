@@ -6,7 +6,9 @@ title: Executive Summary
 # Executive Summary
 
 **Project Title:** Portfolio Optimisation Using API-Based Market Data and Machine Learning
+
 **Author:** James Webb  
+
 **Date:** September 2025  
 
 ## Problem & Motivation
