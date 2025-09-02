@@ -24,7 +24,7 @@ permalink: /conclusion.html
 - Executive Summary (this site).  
 - Methods, Results, and Appendix pages with downloadable artefacts (figures, tables, code links).
 
-## 📑 Full Report
+## Full Report
 
 - [Executive Summary](/index.md)  
 - [Introduction & Background](/intro.md)  
