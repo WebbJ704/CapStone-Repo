@@ -36,7 +36,7 @@ The combined machine learning and optimisation framework demonstrates how uncert
 
 ---
 
-## 📑 Full Report
+## Full Report
 
 - [Introduction & Background](/intro.md)  
 - [Methods](/methods.md)  
