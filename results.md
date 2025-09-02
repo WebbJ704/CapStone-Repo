@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Results
-permalink: /results.md
+permalink: /results.html
 ---
 
 # Results
