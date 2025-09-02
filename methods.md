@@ -40,7 +40,7 @@ permalink: /methods.html
 ## Visualisation
 - **Risk vs Return scatter**: distribution of Sharpe ratios across random portfolios.  
 - **Bootstrap histograms**: distributions of annualised means, volatilities, and Sharpe.  
-- **Cumulative return plots**: portfolio performance vs individual stocks and equal-weight benchmark.
+- **Cumulative return plots**: portfolio performance vs individual stocks.
 
 ## Full Report
 
