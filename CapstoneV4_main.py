@@ -44,7 +44,7 @@ if __name__ == "__main__":
     #Use Random forest modeling to predict best weights to maximise sharpe ratio
     weights_model, sharpe_model = CS.RandomForest(data_train, SYMBOL, n_samples = 10000)
     weights_str = ", ".join([f"{t}: {w:.2f}" for t, w in zip(SYMBOL, weights_model)])
-    print('Sharpe Ratio predicted by model on test data', sharpe_model)
+    print('Sharpe Ratio predicted by model on train data', sharpe_model)
     print("Model weights Randomly selected from Top 20 to avoid overfitting:", weights_str)
    
     #run models through evaluatating pipile on test df and whole df

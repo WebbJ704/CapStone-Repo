@@ -336,6 +336,7 @@ def cumulative_return_plot(df, df_weights, tickers, weights, title):
         plt.plot((1+df[f'{ticker} Return']).cumprod(), label = ticker)
     plt.plot((1+df_weights).cumprod(), label = weights_str)
     plt.xlabel('Date')
+    plt.xticks(rotation=45)
     plt.ylabel('Return')
     plt.legend()
     plt.title(title)
