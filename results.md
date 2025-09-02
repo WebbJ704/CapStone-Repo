@@ -22,9 +22,9 @@ Graph provides a summary of bootstraped statistics for each stock:
 - Predicted test Sharpe: **[0.71]**  
 
 **Random Forest Figures:**  
-- ![Risk vs Return](/assets/risk%20retrun.png)  
-- ![Test Boostrap Distributions](/assets/Test%20Data%20returns:%20Model%20Weights.png)  
-- ![Test Cumulative Returns – RF](/assets/Cumulative%20Return:%20sampled%20weights%20from%20Random%20Forest%20Model%20on%20test%20Dataset.png)  
+- ![Risk vs Return](/assets/risk_retrun.png)  
+- ![Test Boostrap Distributions](/assets/Test_Data_returns_Model_Weights.png)  
+- ![Test Cumulative Returns – RF](/assets/Cumulative_Return_sampled_weights_from_Random_Forest_Model_on_test_Dataset.png)  
 
 ## SLSQP Optimisation Results
 - Optimal test weights: **[AAPL: 0.50, MSFT: 0.26, GOOGL: 0.00, AMD: 0.24]**
