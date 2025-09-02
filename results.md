@@ -30,7 +30,7 @@ Graph provides a summary of bootstraped statistics for each stock:
 
 **SLSQP Figures:**  
 - ![Test Boostrap Distributions - SLSQP](/assets/Test%20Data%20returns:%20scipy%20Weights.png) 
-- ![Test Cumulative Returns – SLSQP](/assets/Cumulative%20Return:%20sampled%20weights%20from%20scipy%20Study%20on%20test%20Dataset.png)  
+- ![Test Cumulative Returns – SLSQP](/assets/Cumulative%20Return:%20optimal%20weights%20from%20scipy%20Study%20on%20test%20Dataset.png)  
 
 ## Interpretation
 - Compare Random Forest vs SLSQP performance.  
