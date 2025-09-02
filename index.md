@@ -5,7 +5,7 @@ title: Executive Summary
 
 # Executive Summary
 
-**Project Title:** Portfolio Optimisation & Forecasting of US Tech Equities (2020–Present)  
+**Project Title:** Portfolio Optimisation Using API-Based Market Data and Machine Learning
 **Author:** James Webb  
 **Date:** September 2025  
 
