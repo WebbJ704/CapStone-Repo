@@ -35,3 +35,10 @@ The combined machine learning and optimisation framework demonstrates how uncert
 - Extend to rolling/expanding validation for robustness.  
 
 ---
+
+## 📑 Full Report
+
+- [Introduction & Background](/intro.html)  
+- [Methods](/methods.html)  
+- [Results](/results.html)  
+- [Conclusion & Next Steps](/conclusion.html)
