@@ -14,23 +14,23 @@ Graph provides a summary of bootstraped statistics for each stock:
 ![Individual assests statistics](/assets/bootstrap%20individual%20assets.png)  
 
 ## Random Forest Results
-- Train R²: **[…]**; Cross-validation mean ± std: **[…]**  
-- Test R²: **[…]**  
-- Selected test portfolio weights: **[…]**  
-- Predicted test Sharpe: **[…]**  
+- Train R²: **[0.9995]**;  
+- Test R²: **[0.9969]**  
+- Selected test portfolio weights from top 20 to avoid over fitting: **[AAPL: 0.45, MSFT: 0.31, GOOGL: 0.01, AMD: 0.24]**  
+- Predicted test Sharpe: **[0.67]**  
 
-**Figures:**  
+**Random Forest Figures:**  
 - ![Risk vs Return](/assets/risk_return.png)  
-- ![Sharpe Distribution (Bootstrap)](/assets/bootstrap_sharpe.png)  
-- ![Cumulative Returns – RF](/assets/cum_returns_rf.png)  
+- ![Test Boostrap Distributions](/assets/Test%20Data%20returns:%20Model%20Weights.png)  
+- ![Test Cumulative Returns – RF](/assets/cum_returns_rf.png)  
 
 ## SLSQP Optimisation Results
-- Optimal test weights: **[…]**  
-- Test Sharpe: **[…]**  
-- Bootstrap mean Sharpe: **[…]**, 95% CI: **[…, …]**  
+- Optimal test weights: **[AAPL: 0.50, MSFT: 0.26, GOOGL: 0.00, AMD: 0.24]**  
+- Test Sharpe: **[0.64]**   
 
-**Figures:**  
-- ![Cumulative Returns – SLSQP](/assets/cum_returns_slsqp.png)  
+**SLSQP Figures:**  
+- ![Test Boostrap Distributions - SLSQP](/assets/Test%20Data%20returns:%20Model%20Weights.png) 
+- ![Test Cumulative Returns – SLSQP](/assets/cum_returns_slsqp.png)  
 
 ## Interpretation
 - Compare Random Forest vs SLSQP performance.  
