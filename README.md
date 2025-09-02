@@ -85,6 +85,13 @@ This repo also contains a **GitHub Pages site** for publishing the project in a 
 3. Commit and push to GitHub.  
 4. Enable **GitHub Pages** in your repo settings (`Settings → Pages → Source: main branch, / root`).  
 
+Your site will be live at:  
+```
+https://<your-username>.github.io/<repo-name>/
+```
+
+---
+
 ## Exporting Figures from Python to Assets  
 
 When running your analysis, save each figure directly into the `assets/` folder so it appears on the GitHub Pages site:  

@@ -5,7 +5,7 @@ title: Executive Summary
 
 # Executive Summary
 
-**Project Title:** Portfolio Optimisation & Forecasting of US Tech Equities 
+**Project Title:** Portfolio Optimisation & Forecasting of US Tech Equities (2020–Present)  
 **Author:** James Webb  
 **Date:** September 2025  
 
@@ -36,7 +36,7 @@ The combined machine learning and optimisation framework demonstrates how uncert
 
 ---
 
-## Full Report
+## 📑 Full Report
 
 - [Introduction & Background](/intro.md)  
 - [Methods](/methods.md)  

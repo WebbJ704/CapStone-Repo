@@ -93,11 +93,15 @@ def weights_perfromace_plot(df, tickers, iter=1000):
                           'weights': weights})
 
     plt.scatter(risks, means, alpha=0.4, edgecolor='black')
-    plt.title(f'Risk vs. reward of different portfolios for {tickers}')
+    plt.title(f'Risk vs. reward of different portfolios for {tickers} on train data')
     plt.grid()
     plt.xlabel('Annualised Volatility')
     plt.ylabel('Annualised Returns')
-    plt.show()
+    folder = 'CapStone/CapStone/assets'
+    filename = 'risk retrun.png'
+    # Save to that folder
+    plt.savefig(os.path.join(folder, filename), dpi=300, bbox_inches="tight")
+    plt.close()  # close the figure if you don’t want it to stay open
 
     return pd.DataFrame(dataframe)
 
@@ -292,7 +296,11 @@ def plot_bootstrap(results, tickers):
         ax3[i][2].legend()
 
     plt.tight_layout()
-    plt.show()
+    folder = 'CapStone/CapStone/assets'
+    filename = 'bootstrap individual assets.png'
+    # Save to that folder
+    plt.savefig(os.path.join(folder, filename), dpi=300, bbox_inches="tight")
+    plt.close()  # close the figure if you don’t want it to stay open
 
 
 def plot_bootstrap_weights(results,tickers,weights,title):
@@ -314,7 +322,11 @@ def plot_bootstrap_weights(results,tickers,weights,title):
     ax3[2].legend()
     plt.suptitle(title)
     plt.tight_layout()
-    plt.show()
+    folder = 'CapStone/CapStone/assets'
+    filename = f'{title}.png'
+    # Save to that folder
+    plt.savefig(os.path.join(folder, filename), dpi=300, bbox_inches="tight")
+    plt.close()  # close the figure if you don’t want it to stay open
 
 def cumulative_return_plot(df, df_weights, tickers, weights, title):
     weights = np.array(list(weights))
@@ -328,7 +340,11 @@ def cumulative_return_plot(df, df_weights, tickers, weights, title):
     plt.legend()
     plt.title(title)
     plt.tight_layout()
-    plt.show()
+    folder = 'CapStone/CapStone/assets'
+    filename = f'{title}.png'
+    # Save to that folder
+    plt.savefig(os.path.join(folder, filename), dpi=300, bbox_inches="tight")
+    plt.close()  # close the figure if you don’t want it to stay open
 
 
 

@@ -48,21 +48,21 @@ if __name__ == "__main__":
     print("Model weights Randomly selected from Top 20 to avoid overfitting:", weights_str)
    
     #run models through evaluatating pipile on test df and whole df
-    anual_sharpe_whole_model, Porfolio_Returns_whole_model = CS.portfolio_performance_pipeline(df,weights_model, SYMBOL)
+    anual_sharpe_train_model, Porfolio_Returns_train_model = CS.portfolio_performance_pipeline(train_df,weights_model, SYMBOL)
     anual_sharpe_test_model, Porfolio_Returns_test_model = CS.portfolio_performance_pipeline(test_df,weights_model, SYMBOL)
-    print(f'Anualsied sharpe on whole data of sampled weights from model', anual_sharpe_whole_model)
+    print(f'Anualsied sharpe on Train data of sampled weights from model', anual_sharpe_train_model)
     print(f'Anualsied sharpe on Test data of sampled weights from model', anual_sharpe_test_model)
-    print(f'Return on whole data of sampled weight from model', initial_investment + Porfolio_Returns_whole_model.sum())
+    print(f'Return on Train data of sampled weight from model', initial_investment + Porfolio_Returns_train_model.sum())
     print(f'Return on Test data of sampled weights from model', initial_investment  + Porfolio_Returns_test_model.sum())
 
     # run the bootstrap on the optimal weights return from random forest on test data and whole data
+    Bootstrap_results_train_model =  CS.bootstrap_weighted(Porfolio_Returns_train_model)
     Bootstrap_results_test_model =  CS.bootstrap_weighted(Porfolio_Returns_test_model)
-    Bootstrap_results_whole_model =  CS.bootstrap_weighted(Porfolio_Returns_test_model)
+    CS.plot_bootstrap_weights(Bootstrap_results_train_model, SYMBOL, weights_model,'Train Data returns: Model Weights')
     CS.plot_bootstrap_weights(Bootstrap_results_test_model, SYMBOL, weights_model,'Test Data returns: Model Weights')
-    CS.plot_bootstrap_weights(Bootstrap_results_whole_model, SYMBOL, weights_model,'Whole Data returns: Model Weights')
 
     #plot the cumulative retruns of each stock vs portfolio weighted return
-    CS.cumulative_return_plot(df,Porfolio_Returns_whole_model, SYMBOL, weights_model, "Cumulative Return: sampled weights from Random Forest Model on Whole Dataset")
+    CS.cumulative_return_plot(df,Porfolio_Returns_train_model, SYMBOL, weights_model, "Cumulative Return: sampled weights from Random Forest Model on train Dataset")
     CS.cumulative_return_plot(test_df,Porfolio_Returns_test_model, SYMBOL, weights_model, 'Cumulative Return: sampled weights from Random Forest Model on test Dataset')
 
        
