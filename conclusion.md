@@ -7,7 +7,8 @@ permalink: /conclusion.html
 # Conclusion & Next Steps
 
 ## Summary
-- Two appreaches have been demonstrated for portfolio optimisation and compared their out‑of‑sample performance from 2024‑01‑01 onward.  
+- Two appreaches have been demonstrated for portfolio optimisation and compared their out‑of‑sample performance from 2024‑01‑01 onward.
+- It was found that by using an randomly selected weighting from the top 20 shapre ratios prudced by the random forest model gave an increase in sharpe by 0.07 than that of the scipy model. both models had a sharpe of **[0.92]** on the train data. therefore both models still are off but the radnom forest is only off by 23% where scipy is off by 30% making the random forest the better choice.
 - Bootstrapping provided uncertainty bounds, improving the credibility of the findings.
 
 ## Recommendations
