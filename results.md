@@ -40,6 +40,7 @@ _Insert a table or CSV export here._
 
 ## 📑 Full Report
 
+- [Executive Summary](/index.md)  
 - [Introduction & Background](/intro.md)  
 - [Methods](/methods.md)  
 - [Results](/results.md)  
