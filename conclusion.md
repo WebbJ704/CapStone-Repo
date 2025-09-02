@@ -23,3 +23,10 @@ permalink: /conclusion.html
 ## Deliverables
 - Executive Summary (this site).  
 - Methods, Results, and Appendix pages with downloadable artefacts (figures, tables, code links).
+
+## 📑 Full Report
+
+- [Introduction & Background](/intro.md)  
+- [Methods](/methods.md)  
+- [Results](/results.md)  
+- [Conclusion & Next Steps](/conclusion.md)
