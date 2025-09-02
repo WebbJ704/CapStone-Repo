@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Methods
-permalink: /methods.md
+permalink: /methods.html
 ---
 
 # Methods
