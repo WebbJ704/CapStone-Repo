@@ -20,7 +20,7 @@ Graph provides a summary of bootstraped statistics for each stock:
 - Predicted test Sharpe: **[0.67]**  
 
 **Random Forest Figures:**  
-- ![Risk vs Return](/assets/risk_retrun.png)  
+- ![Risk vs Return](/assets/risk%20retrun.png)  
 - ![Test Boostrap Distributions](/assets/Test%20Data%20returns:%20Model%20Weights.png)  
 - ![Test Cumulative Returns – RF](/assets/Cumulative%20Return:%20sampled%20weights%20from%20Random%20Forest%20Model%20on%20test%20Dataset.png)  
 
