@@ -10,7 +10,7 @@ title: Executive Summary
 **Date:** September 2025  
 
 ## Problem & Motivation
-Investors face the challenge of constructing portfolios that balance return and risk under uncertainty. Traditional mean–variance optimisation is often unstable, leading to allocations that fail out of sample. This project applies both **machine learning** and **numerical optimisation** to build and evaluate portfolios of leading US technology equities (AAPL, MSFT, GOOGL, AMD).  
+Investors face the challenge of constructing portfolios that balance return and risk under uncertainty. Traditional mean–variance optimisation is often unstable, leading to allocations that fail out of sample. This project applies both **machine learning** and **numerical optimisation** to build and evaluate portfolios of leading US technology equities (AAPL, MSFT, GOOGL, AMD). The core objective is to maximise risk-adjusted returns, measured via the Sharpe ratio, using historical financial data and machine learning models. The analysis will include both in-sample training and out-of-sample testing to enhancing robustness and reducing overfitting.
 
 ## Data & Methods
 Daily adjusted close data was sourced from **Yahoo Finance** (via `yfinance`). Portfolios were evaluated using:  
