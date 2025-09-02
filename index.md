@@ -5,7 +5,7 @@ title: Executive Summary
 
 # Executive Summary
 
-**Project Title:** Portfolio Optimisation & Forecasting of US Tech Equities (2020–Present)  
+**Project Title:** Portfolio Optimisation & Forecasting of US Tech Equities 
 **Author:** James Webb  
 **Date:** September 2025  
 
