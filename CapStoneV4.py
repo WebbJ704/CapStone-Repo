@@ -1,5 +1,3 @@
-# run a load of oiterations to make datset then use random forest to optimise. then use scipy and compare
-
 import yfinance as yf
 import pandas as pd 
 import os

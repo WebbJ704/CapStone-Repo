@@ -4,7 +4,7 @@ import pandas as pd
 # ----------------- INNSTRUMENT CONFIG -----------------
 SYMBOL = ['AAPL', 'MSFT', 'GOOGL','AMD']
 initial_investment = 1
-# ------------------------------------------
+# ------------------------------------------------------
 if __name__ == "__main__":
     # ----------------- Data Acquisition & Preprocessing -----------------
     df = {}
@@ -24,8 +24,8 @@ if __name__ == "__main__":
     # Split data chronologically
     train_df = df[df.index < '2024-01-01'].copy()
     test_df = df[df.index >= '2024-01-01'].copy() 
-    test_return_df = df_return[df_return.index < '2024-01-01'].copy()
-    train_retrun_df = df_return[df_return.index >= '2024-01-01'].copy()
+    train_return_df = df_return[df_return.index < '2024-01-01'].copy()
+    test_return_df = df_return[df_return.index >= '2024-01-01'].copy()
 
     # Bootstrap Whole data to better understand each stock for whole dataset
     Bootstrap_results =  CS.bootstrap(df, SYMBOL)
@@ -37,7 +37,7 @@ if __name__ == "__main__":
     #----------------- Portfolio Performance of different weights -----------------  
        
     #spread of weights, risk , retrun which can be used ti determin min retrun constrain for Scipy minimise alos data for model
-    data_train = CS.weights_perfromace_plot(train_retrun_df, SYMBOL, iter = 10000)
+    data_train = CS.weights_perfromace_plot(train_return_df, SYMBOL, iter = 10000)
 
     # ----------------- portfolio Performance Evaluation with RandomForest Modeling -----------------    
 
@@ -68,8 +68,8 @@ if __name__ == "__main__":
        
     # ----------------- portfolio Performance Evaluation with scipy minimise with a min return constrain -----------------    
 
-    # scipiy optimise on test data then input weights into train data
-    sharpe_scipy , weights_scipy = CS.optimise(test_return_df, SYMBOL, risk_free_rate=0.02, min_return=0.25)
+    # scipiy optimise on train data then input weights into test data
+    sharpe_scipy , weights_scipy = CS.optimise(train_return_df, SYMBOL, risk_free_rate=0.02, min_return=0.25)
     weights_str_scipy = ", ".join([f"{t}: {w:.2f}" for t, w in zip(SYMBOL, weights_scipy)])
     print('Sharpe from Scipy',sharpe_scipy)
     print('weight from scipy',weights_str_scipy)

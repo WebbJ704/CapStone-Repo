@@ -1,0 +1,7 @@
+title: Capstone – Portfolio Optimisation & Forecasting
+description: Executive summary and full report for the capstone project (Random Forest + SLSQP on multi-asset portfolio, data via yfinance).
+theme: jekyll-theme-cayman
+markdown: kramdown
+github:
+  is_project_page: true
+  is_user_page: false
