@@ -42,7 +42,7 @@ permalink: /methods.html
 - **Bootstrap histograms**: distributions of annualised means, volatilities, and Sharpe.  
 - **Cumulative return plots**: portfolio performance vs individual stocks and equal-weight benchmark.
 
-## 📑 Full Report
+## Full Report
 
 - [Executive Summary](/index.md)  
 - [Introduction & Background](/intro.md)  
