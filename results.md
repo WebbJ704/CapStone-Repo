@@ -11,7 +11,7 @@ Graph provides a summary of bootstraped statistics for each stock:
 - Mean daily/annualised returns  
 - Volatility  
 - Sharpe ratio
-![Individual assets statistics]([https://username.github.io/CapStone-Repo/assets/bootstrap_individual_assets.png](https://github.com/WebbJ704/CapStone-Repo/blob/main/assets/bootstrap%20individual%20assets.png))
+![Individual assets statistics](https://github.com/WebbJ704/CapStone-Repo/blob/main/assets/bootstrap%20individual%20assets.png)
 
 
 ## Random Forest Results
