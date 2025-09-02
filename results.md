@@ -38,7 +38,7 @@ _Insert a table or CSV export here._
 - Comment on stability of weights and robustness across train/test.  
 - Highlight where results diverged and what that means in practice.
 
-## 📑 Full Report
+## Full Report
 
 - [Executive Summary](/index.md)  
 - [Introduction & Background](/intro.md)  
