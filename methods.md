@@ -44,6 +44,7 @@ permalink: /methods.html
 
 ## 📑 Full Report
 
+- [Executive Summary](/index.md)  
 - [Introduction & Background](/intro.md)  
 - [Methods](/methods.md)  
 - [Results](/results.md)  
