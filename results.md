@@ -15,9 +15,9 @@ Graph provides a summary of bootstraped statistics for each stock:
 
 ## Random Forest Results
 - Train R²: **[0.9995]**;  
-- Test R²: **[0.9969]**  
-- Selected test portfolio weights from top 20 to avoid over fitting: **[AAPL: 0.45, MSFT: 0.31, GOOGL: 0.01, AMD: 0.24]**  
-- Predicted test Sharpe: **[0.67]**  
+- Test R²: **[0.9975]**  
+- Selected test portfolio weights from top 20 to avoid over fitting: **[AAPL: 0.44, MSFT: 0.37, GOOGL: 0.00, AMD: 0.19]**  
+- Predicted test Sharpe: **[0.71]**  
 
 **Random Forest Figures:**  
 - ![Risk vs Return](/assets/risk%20retrun.png)  
