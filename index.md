@@ -21,12 +21,12 @@ Daily adjusted close data was sourced from **Yahoo Finance** (via `yfinance`). P
 - **Visualisation** of risk/return trade-offs and cumulative returns.  
 
 ## Key Results 
-- **Random Forest**: Predicted test Sharpe of **[0.67]** with weights **[AAPL: 0.45, MSFT: 0.31, GOOGL: 0.01, AMD: 0.24]**.  
+- **Random Forest**: Predicted test Sharpe of **[0.71]** with weights **[AAPL: 0.44, MSFT: 0.37, GOOGL: 0.00, AMD: 0.19]**.  
 - **SLSQP**: Test Sharpe of **[0.64]** with weights **[AAPL: 0.50, MSFT: 0.26, GOOGL: 0.00, AMD: 0.24]** under a minimum return constraint of **[25%]**.  
-- **Bootstrap Random Forest**: Mean Sharpe **[…]**, 95% interval **[…, …]**.
-- **Bootstrap SLSQP**: Mean Sharpe **[…]**, 95% interval **[…, …]**. 
-- **Cumulative Return Random Forest**: Portfolio achieved **[…]%** vs equal-weight benchmark **[…]%** in the test period.
-- **Cumulative Return SLSQ**: Portfolio achieved **[…]%** vs equal-weight benchmark **[…]%** in the test period.  
+- **Bootstrap Random Forest**: Mean Sharpe **[0.70]**, 95% interval **[-0.90,2.20]**.
+- **Bootstrap SLSQP**: Mean Sharpe **[0.60]**, 95% interval **[-0.98, 2.19]**. 
+- **Cumulative Return Random Forest**: Portfolio achieved an increase off **[29.3%]%** in the test period.
+- **Cumulative Return SLSQ**: Portfolio achieved an increase off **[28.5%]%** in the test period.  
 
 ## Implications
 The combined machine learning and optimisation framework demonstrates how uncertainty-aware portfolio construction can outperform naive benchmarks. Beyond finance, this approach generalises to other FP&A contexts — such as product mix, pricing, and budget allocation — where trade-offs and uncertainty must be managed.  
