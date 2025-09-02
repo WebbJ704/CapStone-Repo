@@ -11,7 +11,7 @@ Graph provides a summary of bootstraped statistics for each stock:
 - Mean daily/annualised returns  
 - Volatility  
 - Sharpe ratio
-- ![Individual assests statistics](/assets/bootstrap individual assests.png)  
+- ![Individual assests statistics](/assets/bootstrap individual assets.png)  
 
 ## Random Forest Results
 - Train R²: **[…]**; Cross-validation mean ± std: **[…]**  
