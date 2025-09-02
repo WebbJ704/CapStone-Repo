@@ -20,17 +20,17 @@ Graph provides a summary of bootstraped statistics for each stock:
 - Predicted test Sharpe: **[0.67]**  
 
 **Random Forest Figures:**  
-- ![Risk vs Return](/assets/risk_return.png)  
+- ![Risk vs Return](/assets/risk_retrun.png)  
 - ![Test Boostrap Distributions](/assets/Test%20Data%20returns:%20Model%20Weights.png)  
-- ![Test Cumulative Returns – RF](/assets/cum_returns_rf.png)  
+- ![Test Cumulative Returns – RF](/assets/Cumulative%20Return:%20sampled%20weights%20from%20Random%20Forest%20Model%20on%20test%20Dataset.png)  
 
 ## SLSQP Optimisation Results
 - Optimal test weights: **[AAPL: 0.50, MSFT: 0.26, GOOGL: 0.00, AMD: 0.24]**  
 - Test Sharpe: **[0.64]**   
 
 **SLSQP Figures:**  
-- ![Test Boostrap Distributions - SLSQP](/assets/Test%20Data%20returns:%20Model%20Weights.png) 
-- ![Test Cumulative Returns – SLSQP](/assets/cum_returns_slsqp.png)  
+- ![Test Boostrap Distributions - SLSQP](/assets/Test%20Data%20returns:%20scipy%20Weights.png) 
+- ![Test Cumulative Returns – SLSQP](/assets/Cumulative%20Return:%20sampled%20weights%20from%20scipy%20FStudy%20on%20test%20Dataset.png)  
 
 ## Interpretation
 - Compare Random Forest vs SLSQP performance.  
