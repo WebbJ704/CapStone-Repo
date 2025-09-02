@@ -24,4 +24,11 @@ This project introduces two data-driven techniques:
 ## Contribution
 - A reproducible Python workflow for portfolio optimisation.  
 - Comparative evaluation of machine learning and numerical optimisation approaches.  
-- Visual and statistical communication of uncertainty to decision-makers.  
+- Visual and statistical communication of uncertainty to decision-makers.
+
+## 📑 Full Report
+
+- [Introduction & Background](/intro.md)  
+- [Methods](/methods.md)  
+- [Results](/results.md)  
+- [Conclusion & Next Steps](/conclusion.md)
