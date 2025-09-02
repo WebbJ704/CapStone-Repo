@@ -16,7 +16,8 @@ Graph provides a summary of bootstraped statistics for each stock:
 ## Random Forest Results
 - Train R²: **[0.9995]**;  
 - Test R²: **[0.9975]**  
-- Selected test portfolio weights from top 20 to avoid over fitting: **[AAPL: 0.44, MSFT: 0.37, GOOGL: 0.00, AMD: 0.19]**  
+- Selected test portfolio weights from top 20 to avoid over fitting: **[AAPL: 0.44, MSFT: 0.37, GOOGL: 0.00, AMD: 0.19]**
+- Predicted train Sharpe: **[0.92]** 
 - Predicted test Sharpe: **[0.71]**  
 
 **Random Forest Figures:**  
@@ -25,7 +26,8 @@ Graph provides a summary of bootstraped statistics for each stock:
 - ![Test Cumulative Returns – RF](/assets/Cumulative%20Return:%20sampled%20weights%20from%20Random%20Forest%20Model%20on%20test%20Dataset.png)  
 
 ## SLSQP Optimisation Results
-- Optimal test weights: **[AAPL: 0.50, MSFT: 0.26, GOOGL: 0.00, AMD: 0.24]**  
+- Optimal test weights: **[AAPL: 0.50, MSFT: 0.26, GOOGL: 0.00, AMD: 0.24]**
+- Train Sharpe: **[0.92]**
 - Test Sharpe: **[0.64]**   
 
 **SLSQP Figures:**  
