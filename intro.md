@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Introduction & Background
-permalink: /intro.md
+permalink: /intro.html
 ---
 
 # Introduction & Background
